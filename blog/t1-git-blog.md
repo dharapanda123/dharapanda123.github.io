@@ -1,14 +1,23 @@
 
-Title
+Title MY FIRST BLOG
 
-Subtitle
+Subtitle About GIT
 
-Date
+Date 07/12/2014
 
-Paragraph 1
 
-Paragraph 2
+Version control allows developer to work together with ease as it provides support for both shared and exclusive files.
+Archives all versions so you can retrieve any version at anytime.
+It also storesd the date and time when modified and who performed the action.
+Recover from accidental deletions
+Conserves disc space.
 
-Paragraph 3
+The mechanisms by which one determines the status of a file is fairly straightforward. To know what files have been staged, one simply diffs the HEAD tree with the index. Any items that appear only in the index have been staged for addition, any items that appear only in HEAD have been removed and any items that are different have had changes staged.
 
-Add as many paragraphs as you want!!!
+Similarly, one would detect unstaged changes by diff'ing the index with the working directory
+The tree object is how Git keeps track of file names and directories. There is a tree object for each directory. The tree object points to the SHA-1 blobs, the files, in that directory, and other trees, sub-directories at the time of the commit. Each tree object is encrypted into, you guessed it, a SHA-1 hash of its contents, and stored in .git/objects. The name of the trees, since they are SHA-1 hashes, allow Git to quickly see if there's been any changes to any files or directories by comparing the name to the previous name. Pretty slick.
+
+
+ Whether you work on multiple computers or just want to get some old projects off your computer, GitHub is the perfect place to store your projects online.
+Once your code is on GitHub, you can invite others to work on your code with you. Send them a link to help you debug a problem.
+Any programmer worth their salt knows that source control is crucial. The most obvious perk  is allowing you to securely store your code in a safe place. It doesn’t stop there. Having good source control makes it easier to experiment with new features without worrying about irreparably damaging your program. Source control is something we all should do.
