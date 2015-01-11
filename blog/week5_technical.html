@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link type="text/css" rel="stylesheet" href="../stylesheets/blog-stylesheets.css" />
+  <title>Page title10</title>
+</head>
+<body>
+   <h1>TECHNICAL BLOG 4</h1>
+  <h2>Author:Dharmadhara Panda</h2>
+  <h3>Date/time:27/12/2014</h3>
+  <h3>Blog category:Technical Blog</h3>
+  <p>First of all, a class is a group of related methods and variables. A class describes these things, and in most cases, you create an instance of this class, now referred to as an object. On this object, you use the defined methods and variables. Of course, you can create as many instances of your class as you want to. Classes, and Object Oriented programming in general, is a huge topic</p>
+  <p>In my understanding a Class is like a bag.And the Methods are kept inside this bag.and taking and instance of a cklass like copying a file.Using a class helps to split the programme smaller reusable code.</p>
+  
+   <p> using System;</P>
+
+<p>namespace Phase0_Exercise46_Numeric_Die</p>
+<p>{</p>
+  <p>public class Die</p>
+ <p> {</p>
+   <p> int sides;</p>
+
+    <p>public Die(int s)</p>
+    <p>{</p>
+      <p>if (s < 1)</p>
+        <p>throw new ArgumentException("Number of sides must be greater than one", "sides");</p>
+     <p> else</p>
+       <p> sides = s;</p>
+    <p>}</p>
+
+   <p> public int Sides()</p>
+    <p>{</p>
+    <p>  return sides;</p>
+   <p> }</p>
+
+   <p> public int Roll()</p>
+   <p> {</p>
+     <p> var random = new Random();</p>
+      <p>int roll = random.Next(0, sides);</p>
+     <p> return roll+1;</p>
+    <p>}</p>
+  <p>}</p>
+
+<p>}</p>
+</p>
+  
+</body>
+</html>

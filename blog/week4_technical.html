@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link type="text/css" rel="stylesheet" href="../stylesheets/blog-stylesheets.css" />
+  <title>Page title 8</title>
+</head>
+<body>
+  <table>
+    <tr>
+      <td><p>Week4 Technical Blog</p></td>
+    </tr>
+    <tr>
+      <td>
+        <p>Author:Dharmadhara Panda</p>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <p>Date/time:31/12/2014</p>
+      </td>
+    </tr>
+    <tr>
+      <td><p>Blog category:Technical</p>
+      </td>
+    </tr>
+    
+    <tr>
+      <td>
+        <p>
+          A method is a code block that contains a series of statements. A program causes the statements to be executed by calling the method and specifying any required method arguments. In C#, every executed instruction is performed in the context of a method.</td>
+        </tr>
+        <tr>
+          <td>
+            Methods are declared in a class or struct by specifying the access level such as public or private, optional modifiers such as abstract or sealed, the return value, the name of the method, and any method parameters. 
+          </td> 
+        </tr>
+        <tr>
+        <td> 
+        There are various methods in C# .NET. I ma going to discuss the Extension Method in C#.Although i dont understand this method by experience i would like to share whatever i understood by my research.
+
+
+
+
+
+
+
+
+
+
+        </p>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        An extension method has simplified calling syntax. It represents static methods as instance methods. An extension method uses the this-keyword in its parameter list. It must be located in a static class.
+      </td>
+    </tr>
+    <tr>
+      <td>
+    <img src="http://www.dotnetperls.com/extension.png"/>
+  </td>
+</tr>
+<tr>
+  <td>
+     you might like to know whether a certain string was a number or not. The usual approach would be to define a function and then call it each time, and once you got a whole lot of those kind of functions, you would put them together in a utility class, like this:
+
+  </td>
+</tr>
+<tr>
+  <td>
+  public class MyUtils</td>
+  
+</tr>
+<tr>
+  <td>
+{
+   </td>
+ </tr>
+ <tr>
+  <td>
+
+    public static bool IsNumeric(string s)
+  </td>
+</tr>
+<tr>
+  <td>
+  {
+</td>
+</tr>
+<tr>
+  <td>
+        float output;</td>
+        </tr>
+        <tr>
+          <td>
+
+        return float.TryParse(s, out output);</td>
+      </tr>
+      <tr>
+        <td>
+    }
+  </td>
+</tr>
+<tr>
+
+  <td>
+}
+</td>
+</tr>
+</p>
+
+  </td>
+</tr>
+Now you could check a string by executing a line of code like this:
+<tr>
+  <td>
+    string test = "4";
+  </td>
+</tr>
+<tr>
+  <td>
+    if (MyUtils.IsNumeric(test))
+  </td>
+</tr>
+<tr>
+  <td>
+
+    Console.WriteLine("Yes");
+  </td>
+</tr>
+<tr>
+  <td>
+    else
+ </td>
+</tr>
+<tr>
+  <td>
+    Console.WriteLine("No")
+
+</td>
+</tr>
+<tr>
+  <td>
+    This is one of the extension methods. Understanding the extension methods makes writing code easier and less complicated.
+  </td>
+</tr>
+
+
+
+
+
+
+
+
+
+  </table>
+</body>
+</html>
