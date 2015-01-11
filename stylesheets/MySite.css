@@ -4,7 +4,10 @@
  }
 
 h1
-{   color:#ff33cc;
+
+{  
+	text-decoration: underline;
+ color:#ff33cc;
 	text-align: center;
 
 }
@@ -21,4 +24,15 @@ h1
 div
 {
 	font-size:large;
+}
+table
+{
+border: 2px solid black;
+display: block;
+width: 50%;
+margin: 0px auto;
+}
+th
+{
+	padding: 0px 40px 0px 40px ;
 }

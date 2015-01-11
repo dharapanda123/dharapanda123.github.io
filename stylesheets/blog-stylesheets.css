@@ -4,22 +4,24 @@ html
 }
 
 
-#para
+p
 {
 	font-style:oblique;
     font-size:large;
 }
-#heading
+h1
 {
 	font-style:block;
 	font-weight: bold
 }
-#set
+
+h1,h2,h3
 {
-	font-style:italic;
+	text-align: center;
 }
-#set1
-{
-	font-style:italic;
-}
+
+	
+
+
+
 
